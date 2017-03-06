@@ -44,6 +44,7 @@ void setup() {
                             if (((char *) data)[0] == '2') {
                                 digitalWrite(LEDPin,HIGH);
                                 Serial.println("Led acceso");
+                                digitalWrite(LEDPin,LOW);
 
                             }
 
