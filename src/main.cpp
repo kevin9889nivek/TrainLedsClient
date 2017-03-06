@@ -22,6 +22,8 @@ void setup() {
     Serial.begin(115200);
     Serial.setDebugOutput(true);
 
+    digitalWrite(LEDPin,LOW);
+
     WiFi.mode(WIFI_STA);
 
     WiFi.begin(ssid, password);
